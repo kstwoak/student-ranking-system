@@ -150,7 +150,7 @@ func AssignChineseMathEnglish(students []Student) []Student {
 // 主函数
 func main() {
 	// 读取CSV文件
-	students, err := readCSVFile("test2.csv")
+	students, err := readCSVFile("students.csv")
 	if err != nil {
 		fmt.Printf("读取文件失败: %v\n", err)
 		return
